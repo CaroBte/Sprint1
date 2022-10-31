@@ -133,11 +133,11 @@ function hacerCliente() {
             console.log(`Quedan ${cajero[2].billete20 * 20000} disponible en billetes de 20mil`)
             console.log(`Quedan ${cajero[1].billete10 * 10000} disponible en billetes de 10mil`)
             console.log(`Quedan ${cajero[0].billete5 * 5000} disponible en billetes de 5mil`)
-            console.log(`Se entregaron ${billetesEntregados[0]} billetes de 100000`)
-            console.log(`Se entregaron ${billetesEntregados[1]} billetes de 50000`)
-            console.log(`Se entregaron ${billetesEntregados[2]} billetes de 20000`)
-            console.log(`Se entregaron ${billetesEntregados[3]} billetes de 10000`)
-            console.log(`Se entregaron ${billetesEntregados[4]} billetes de 5000`)
+            console.log(`Se entregaron ${billetesEntregados[0]} billetes de 100mil`)
+            console.log(`Se entregaron ${billetesEntregados[1]} billetes de 50mil`)
+            console.log(`Se entregaron ${billetesEntregados[2]} billetes de 20mil`)
+            console.log(`Se entregaron ${billetesEntregados[3]} billetes de 10mil`)
+            console.log(`Se entregaron ${billetesEntregados[4]} billetes de 5mil`)
 
         }
     }
