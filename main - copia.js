@@ -127,12 +127,12 @@ function hacerCliente() {
 
             }
 
-            console.log(`Hay ${totalGeneral} pesos en el cajero`)
-            console.log(`Hay ${cajero[4].billete100 * 100000} disponible en billetes de 100mil`)
-            console.log(`Hay ${cajero[3].billete50 * 50000} disponible en billetes de 50mil`)
-            console.log(`Hay ${cajero[2].billete20 * 20000} disponible en billetes de 20mil`)
-            console.log(`Hay ${cajero[1].billete10 * 10000} disponible en billetes de 10mil`)
-            console.log(`Hay ${cajero[0].billete5 * 5000} disponible en billetes de 5mil`)
+            console.log(`Quedan ${totalGeneral} pesos en el cajero`)
+            console.log(`Quedan ${cajero[4].billete100 * 100000} disponible en billetes de 100mil`)
+            console.log(`Quedan ${cajero[3].billete50 * 50000} disponible en billetes de 50mil`)
+            console.log(`Quedan ${cajero[2].billete20 * 20000} disponible en billetes de 20mil`)
+            console.log(`Quedan ${cajero[1].billete10 * 10000} disponible en billetes de 10mil`)
+            console.log(`Quedan ${cajero[0].billete5 * 5000} disponible en billetes de 5mil`)
             console.log(`Se entregaron ${billetesEntregados[0]} de 100000`)
             console.log(`Se entregaron ${billetesEntregados[1]} de 50000`)
             console.log(`Se entregaron ${billetesEntregados[2]} de 20000`)
@@ -166,7 +166,7 @@ function runAtm() {
             break;
         default:
             alert("Usuario o contraseña incorrecto, intente nuevamente")
-            runAtm()
             break;
-    }
+    } 
+    runAtm()
 }
