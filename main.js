@@ -127,7 +127,7 @@ function hacerCliente() {
 
             }
 
-            console.log(`Quedan ${totalGeneral} pesos en el cajero`)
+            console.log(`Ahora hay ${totalGeneral} pesos disponibles en el cajero`)
             console.log(`Quedan ${cajero[4].billete100 * 100000} disponible en billetes de 100mil`)
             console.log(`Quedan ${cajero[3].billete50 * 50000} disponible en billetes de 50mil`)
             console.log(`Quedan ${cajero[2].billete20 * 20000} disponible en billetes de 20mil`)
