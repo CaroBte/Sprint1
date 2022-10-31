@@ -159,9 +159,11 @@ function runAtm() {
         case 1:
             billetesIngresados.splice(0, 5)
             alert("Bienvenido administrador");
+            console.log("Inicio sesión administrador")
             hacerAdmin()
             break;
         case 2:
+            console.log("Inicio sesión cliente")
             hacerCliente()
             break;
         default:
